@@ -7,7 +7,9 @@ This repository contains a Jupyter Notebook and Streamlit app for predicting hou
 - [Dataset](#dataset)
 - [Dependencies](#dependencies)
 - [Streamlit App Summary](#streamlit-app-summary)
+- [Model Deployment](#model-deployment)
 - [Running Streamlit App](#running-streamlit-app)
+
 
 ## Project Overview
 The goal of this project is to predict house prices using:
@@ -51,8 +53,25 @@ The Streamlit app provides a user-friendly interface to:
 - Model performance metrics
 - Responsive design
 
+
+## Model Deployment
+The model is deployed using Streamlit Cloud
+
+**Deployment Process:**
+- Pushed code to GitHub repository
+- Created Streamlit Cloud account
+- Connected GitHub repository
+- Specified main file as app/predictionapp.py
+
+**Deployed App Live URL:**
+House Price Predictor
+```bash
+https://houseprice-prediction-nesj6nemauux3h6zqdghfd.streamlit.app/
+```
+
 ## Running Streamlit App
 1. Ensure you have all dependencies installed:
 ```bash
 pip install streamlit pandas numpy scikit-learn
 streamlit run predictionapp.py
+```
