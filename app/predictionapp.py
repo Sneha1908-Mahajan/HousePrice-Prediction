@@ -10,7 +10,7 @@ st.title("🏠 Simple House Price Predictor")
 
 @st.cache_data
 def load_data():
-    return pd.read_csv("data.csv")
+    return pd.read_csv("NotebooksFiles/data.csv")
 
 data = load_data()
 
